@@ -2,13 +2,13 @@
 // solo acepta valores de ese tipo
 // pero en JS no hace faltam puede tener varios tipos
 
-let x  //undefined
+let x  //undefined (también cuando no se le asigna un valor)
 x = "Alberto";  //string
 x = 35;  //number
 x = true;  //boolean
 x = null;  //null
 x = undefined;  //undefined
-x = {name: "Alberto", surname: "Rosales"};  //object
+x = {name: "Alberto", surname: "Rosales"};  //object con varias caracteristicas/claves y su valor
 x = [1, 2, 3, 4]; //array, cada dato tiene un indice de posicion
 
 // un array tambien es un objeto, viene de la clase Object
