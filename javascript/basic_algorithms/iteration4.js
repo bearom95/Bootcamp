@@ -5,7 +5,7 @@ console.log(avengers[0]);
 avengers[0]= "IRONMAN";
 console.log(avengers);
 
-console.log(avengers.length);
+console.log(`La longitud del array Avengers es: ${avengers.length}`);
 
 
 const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
