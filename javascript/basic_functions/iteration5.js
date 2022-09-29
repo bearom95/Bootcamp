@@ -14,6 +14,7 @@ const averageWord = (param) => {
         suma = suma + element.length;
     }
   }
+  console.log(suma);
   return suma;
 } 
 
