@@ -15,15 +15,24 @@ dentro de dicho array - comprueba si existe el elemento, en caso que existan
     'Bruce',
     'Peggy',
     'Jessica',
-    'Marc'
+    'Marc',
   ];
   
-  const finderName = (array, name) => {  //dos parametros para esta funcion, uno el array y otro el elemento a buscar, en este caso name
-      if (array.includes(name)) {
-        return ("true" + array.indexof(name)); 
-      } else {
-        return ("false");
-      }
-  
+
+  const finderName2 = (array, name) => {
+    let acumulador = "";  //dos parametros para esta funcion, uno el array y otro el elemento a buscar, en este caso name
+    for (let element of array) {  //para todos los elementos del array
+      if (name == element){       //el nombre que busco coincide con algun elemento??
+        acumulador = acumulador + element 
+      } 
+    }
+
+    if (acumulador.length < 1){
+      console.log("Falso, " + name + " no está en la lista");
+    } else {
+      console.log(`Verdadero, ${name} tiene el puesto ${array.indexOf(acumulador)+1} en la lista`) //Le sumo 1 para que me de la posicion en lenguaje humano
+    }
 }
-  console.log(finderName(nameFinder, "Steve"));
+
+
+    finderName2(nameFinder, "Marc");
