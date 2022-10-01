@@ -21,8 +21,8 @@ dentro de dicho array - comprueba si existe el elemento, en caso que existan
 
   const finderName2 = (array, name) => {
     let acumulador = "";  //dos parametros para esta funcion, uno el array y otro el elemento a buscar, en este caso name
-    for (let element of array) {  //para todos los elementos del array
-      if (name == element){       //el nombre que busco coincide con algun elemento??
+    for (let element of array) {      //para todos los elementos del array
+      if (name == element){           //el nombre que busco coincide con algun elemento??
         acumulador = acumulador + element 
       } 
     }
@@ -34,5 +34,5 @@ dentro de dicho array - comprueba si existe el elemento, en caso que existan
     }
 }
 
-
+    //Comprobación de que funciona
     finderName2(nameFinder, "Marc");
