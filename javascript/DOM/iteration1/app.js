@@ -35,5 +35,6 @@ console.log(allCharacters);
 let spansArray = document.querySelectorAll("[data-function]"); //me da un array con las etiquetas de HTML
 let thirdCharacter = spansArray[2].innerHTML;
     console.log(thirdCharacter);
-//Tengo que acceder al 3rd elemento del array, le pongo innerHTML para que me devuelva solo el nombre
+//Tengo que acceder al 3rd elemento del array usando indices, le pongo innerHTML para que me devuelva solo el nombre
+//He hecho una nueva constante que se llame 3rdPersonaje para que sea mas facil de manejar
 
