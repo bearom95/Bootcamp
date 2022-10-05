@@ -12,3 +12,4 @@ for (let destino of placesToTravel) {
     } 
 }
 
+// ESTÁ MAL, TENDRÍA QUE SALIRME UN ARRAY, NO IMPRIMIR LOS PAISES SIN MÁS

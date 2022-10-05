@@ -31,4 +31,5 @@ const repeatCounter = (array) => {
   }
 
   repeatCounter(counterWords);
+
   
