@@ -19,7 +19,7 @@ const swap = (array, fisrtindex, secondindex) => {
     return newArray
 } 
 
-console.log(swap(players, 0, 3));
+console.log(swap(players, 1, 3));
 
 
 /* const swap2 = (array, firstindex) => {
