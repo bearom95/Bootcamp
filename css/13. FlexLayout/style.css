@@ -1,0 +1,66 @@
+/* Tendremos que hacer uso de flex-direction para empujar 
+el footer abajo, añadir algunos divs contenedores para 
+poder colocar los elementos correctamente, hacer 
+flex-wrap en las cartas para que caigan y calcular el 
+espacio que estas ocupan para que resulte como se indica 
+a continuación: */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    /* flex-direction: column; */
+  }
+  
+  .header {
+    height: 72px;
+    background: darkmagenta;
+    color: white;
+    font-size: 32px;   /* no puedo poner en el medio */
+    font-weight: 900;
+    padding-left: 16px;
+  }
+  
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .sidebar {
+    width: 300px;
+    background: royalblue;
+    height: 100;
+    padding: 16px;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color:black;
+  }
+
+  .allcards {
+    width: 30%;
+    flex-wrap: wrap;
+    padding: 32px;
+
+  }
+  
+  .card {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+  }
+
+
+
+  .footer {
+    height: 72px;
+    background: #eee;
+    color: darkmagenta;
+    text-align: center;
+  }

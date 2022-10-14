@@ -1,0 +1,57 @@
+/* <body>
+<div>I'm a div!</div>
+<p>I'm a paragraph!</p>
+<span>I'm a span</span>
+<a href="#">I'm a link!</a>
+</body> */
+/* display y tamaños indicados */
+
+
+* {
+    padding: 6px; 
+}
+
+body {
+    font-size: 16px;
+}
+
+
+diV {
+    background-color: rgb(202, 48, 48);
+    display: inline;
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+
+p {
+    background-color: blueviolet;
+    display: inline;
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+span {
+    background-color: rgb(0, 89, 255);
+    display: inline;
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    padding-right: 50px;
+}
+
+a {
+    background-color: #2ecc71;
+    display: inline;
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    padding-right: 50px;
+}
+

@@ -12,3 +12,4 @@ const alien = {
 for (let info in alien) {
     console.log("Alien tiene la clave " + info + " con el valor: " + alien[info]);
 }
+

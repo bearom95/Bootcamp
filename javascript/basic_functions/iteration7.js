@@ -36,3 +36,5 @@ dentro de dicho array - comprueba si existe el elemento, en caso que existan
 
     //Comprobación de que funciona
     finderName2(nameFinder, "Marc");
+
+    //PODRIAMOS HACERLO TAMBIEN CON INCLUDES. if array.includes(`${name}`) ME PROPONGO HACERLO MAS SIMPLE

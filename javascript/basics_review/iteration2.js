@@ -3,7 +3,9 @@
 Dado el siguiente javascript usa forof y forin para hacer la media 
 del volumen de todos los sonidos favoritos que tienen los usuarios */
 
-// Tenemos un array de objetos donde la clave favoriteSounds de cada objeto, tiene un valor que es a su vez un objeto de 3 claves. Y el valor de cada una de esas 3 claves es a su vez otro objeto que tiene dos claves (format y volume), los numeros son los valores de la clave volume. 
+// Tenemos un array de objetos donde la clave favoriteSounds de cada objeto, tiene un valor que es 
+//a su vez un objeto de 3 claves. Y el valor de cada una de esas 3 claves es a su vez otro objeto que 
+//tiene dos claves (format y volume), los numeros son los valores de la clave volume. 
 
 const users = [                          
     {name: 'Manolo el del bombo',
@@ -36,10 +38,10 @@ const users = [
     },
 ]
 
-let allVolumes = [];                                //Creo un array en cero donde iremos almacenando los valores de Volume
+let allVolumes = [];               //Creo un array en cero donde iremos almacenando los valores de Volume
 for (let user of users) {
-    for (let sound in user.favoritesSounds) {                   //accediendo al nivel por debajo de favoriteSounds
-        allVolumes.push(user.favoritesSounds[sound].volume);    
+    for (let sound in user.favoritesSounds) {         //accediendo al nivel por debajo de favoriteSounds
+        allVolumes.push(user.favoritesSounds[sound].volume);     //for in accede a las claves
         //Accedemos a los valores de cada clave del objeto/valor favoriteSounds (va entre llaves) y dentro de ellos vamos a la clave volume y solo nos quedamos con su valor, que pusheamos al array allVolumes
     }
 }
@@ -52,9 +54,6 @@ let averageVolume = (array) => {
     return suma/array.length
 }
 
-
 console.log(averageVolume(allVolumes));
  
-
-
 /* console.log(users[0].favoritesSounds.waves.volume); MANERA DE LLEGAR AL VALOR DE VOLUMEN */

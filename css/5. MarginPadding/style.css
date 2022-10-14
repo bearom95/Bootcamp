@@ -1,0 +1,40 @@
+/* <body>
+    <div class="one">
+      PRIMER DIV
+    </div>
+    <div class="two">
+      SEGUNDO DIV
+    </div>
+    <div class="three">
+      TERCER DIV
+    </div> */
+
+body {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .one {
+    background: pink;
+    border: 3px solid black;
+    /* CAMBIAR */
+    padding: 2rem;
+    margin: 2rem 3rem 1rem 3rem;
+  }
+  
+  .two {
+    background: lightblue;
+    border: 3px solid black;
+    /* CAMBIAR */
+    margin-bottom: 3rem;
+    margin-inline: 2rem;
+  }
+  
+  .three {
+    background: peachpuff;
+    border: 3px solid black;
+    width: 200px;
+    /* CAMBIAR */
+    padding: 2rem;
+    margin-left: 47%;
+  }

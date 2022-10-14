@@ -1,0 +1,52 @@
+
+
+body {
+    background: #eee;
+    font-family: sans-serif;
+  }
+  
+  .card {
+    width: 800px;
+    background: #fff;
+    margin: 5rem auto;
+    border: blue solid 1px;
+    font-size: 16px;
+  }
+  
+  .title {
+    background: #e3f4ff;
+    padding: 16px;
+    border: blue solid 1px;
+    margin: 8px;
+  }
+  
+  .content {
+    background: #e3f4ff;
+    padding: 32px 16px;
+    border: blue solid 1px;
+    margin: 8px
+    
+  }
+  
+  .button-container {
+    background: #e3f4ff;
+    border: blue solid 1px;
+    margin: 8px;
+    padding: 8px 16px;
+    text-align: center;
+
+
+  }
+  
+  button {
+    background: white;
+    border: 1px solid #eee;
+    margin: 0 auto;   /* centra las cosas */
+    width: fit-content;
+    padding: 8px;
+    display: block; /* hace independiente el item */
+    margin-top: 16px;
+  
+
+
+}
