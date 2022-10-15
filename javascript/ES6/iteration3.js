@@ -30,5 +30,6 @@ console.log(newobj);
 pero sin editar el array inicial. De nuevo, usando spread operatos.*/
 const colors = ['rojo', 'azul', 'amarillo', 'verde', 'naranja'];
 let colorsCopied = [...colors];
-console.log(colorsCopied.splice(2, 1));
+
 console.log(colorsCopied);
+console.log(colorsCopied.splice(2, 1));  //así me saca solo "amarillo"
