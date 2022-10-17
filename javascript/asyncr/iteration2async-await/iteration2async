@@ -1,0 +1,25 @@
+/* 2.1 Convierte la siguiente promesa para esperar a ejecutar el console usando 
+async-await. */
+/* const runTimeOut = async () => {
+  await new Promise((resolve) => {   //Resolve es un método de las promesas
+    setTimeout(function () {
+      resolve();
+    }, 2000);
+  });
+  console.log("Time out!");
+};
+
+runTimeOut(); */
+
+/* 2.2 Convierte la siguiente función con un fetch utilizando async-await. 
+Recuerda que para usar .fetch() tendrás que probar el ejercicio en el navegador; */
+const getCharacters = async () => {
+  try {
+    const res = await fetch("https://rickandmortyapi.com/api/character");
+    const characters = await res.json();
+    console.log(characters);
+  } catch (error) {
+    console.log("Error", error);
+  }
+};
+getCharacters();

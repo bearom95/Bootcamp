@@ -43,8 +43,6 @@ el caracter 'Legends' en su propiedad .gameMorePlayed. Recomendamos usar la func
 Además, pon el valor de la propiedad .gameMorePlayed a MAYUSCULAS cuando 
 .age sea mayor que 35. */
 
-//POR QUÉ EL FOR SE EJECUTA SI NO ESTÁ DENTRO DE UNA FUNCIÓN??
-
 let olderLegend = streamers2.filter(streamer => 
 	streamer.gameMorePlayed.includes("Legends")) 
 
