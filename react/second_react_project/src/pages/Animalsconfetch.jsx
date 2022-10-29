@@ -1,3 +1,6 @@
+//PRIMER INTENTO, SE HIZO ATACANDO DIRECTAMENTE A LA API, LUEGO SE DECIDIÓ HACER NUESTRO PROPIO DATA PORQUE DABA
+//PROBLEMAS A LA HORA DE HACER LA PAGINA ESPECIFICA DEL ANIMAL. ESTE ARCHIVO NO SE ESTÁ USANDO EN NINGUN PUNTO.
+
 /* import React, { useEffect, useState } from "react";
 import { Animalminicard } from "../components/Animalminicard";
 import { Animal } from "./Animal"; */

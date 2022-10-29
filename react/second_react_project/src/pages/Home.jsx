@@ -8,14 +8,14 @@ export const Home = () => {
       <p>
         A website created to deligth you with a view of 10 random wild animals
       </p>
-      <ul>
+      {/*  <ul>
         <li>
           <p>
             <span>Visit the animals website:</span>
             <Link to="animals">Animals</Link>
           </p>
         </li>
-      </ul>
+      </ul> */}
     </>
   );
 };
