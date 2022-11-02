@@ -1,3 +1,12 @@
+.animalsLayout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.animalsLayout > h2 {
+    width: 100%;
+}
+
 .animalminicard {
     height: 20rem;
     width: 18rem;

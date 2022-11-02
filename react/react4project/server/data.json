@@ -1,0 +1,58 @@
+
+  {
+    "mushrooms":[
+        {
+            "latin": "Amanita muscaria",
+            "common": "Fly agaric, Fly amanita",
+            "confusedWith": "Amanita caesarea",
+            "image": "https://res.cloudinary.com/dbdj2oecy/image/upload/v1667410303/1024px-Amanita_muscaria__281_29__288692325426_29_xjxbat.jpg",
+            "regions": "Worldwide",
+            "habitat": "Native to conifer and deciduous woodlands throughout the temperate and boreal regions of the Northern Hemisphere. It forms symbiotic relationships with many trees, including pine, spruce, fir, birch, and cedar.",
+            "fairyRings": true,
+            "psychoactive": true,
+            "poisonous": true,
+            "deadly": false,
+            "id":1
+        },
+        {
+            "latin": "Agaricus arvensis",
+            "common": "Horse mushroom",
+            "confusedWith": "Amanita",
+            "image": "https://res.cloudinary.com/dbdj2oecy/image/upload/v1667410371/800px-Agaricus_arvensis_1292544_vjfdvm.jpg",
+            "regions": "Britain, Iran, North America",
+            "habitat": "Appearing during the months of July-November, it is frequently found near stables, as well as in meadows. It is often found growing with nettles, and sometimes associates with spruce trees.",
+            "fairyRings": true,
+            "psychoactive": false,
+            "poisonous": false,
+            "deadly": false,
+            "id":2
+        },
+        {
+            "latin": "Agaricus campestris",
+            "common": "Field mushroom, Meadow mushroom",
+            "confusedWith": "Amanita bisporigera",
+            "image": "https://res.cloudinary.com/dbdj2oecy/image/upload/v1667410435/Utilidad-del-Agaricus-campestris_l522xg.jpg",
+            "regions": "Asia, Europe, Northern Africa, Australia, New Zealand, North America",
+            "habitat": "Common in fields and grassy areas after rain from late summer onwards worldwide. It is often found on lawns in suburban areas",
+            "fairyRings": true,
+            "psychoactive": false,
+            "poisonous": false,
+            "deadly": false,
+            "id":3
+        },
+        {
+            "latin": "Armillaria mellea",
+            "common": "Honey fungus",
+            "confusedWith": "",
+            "image": "https://res.cloudinary.com/dbdj2oecy/image/upload/v1667410488/armillaria-mellea-3_aawohc.jpg",
+            "regions": "Northern Asia, Europe, North America, South Africa",
+            "habitat": "Armillaria mellea is widespread in northern temperate zones. The fungus grows parasitically on a large number of broadleaf trees. It fruits in dense clusters at the base of trunks or stumps.",
+            "fairyRings": false,
+            "psychoactive": false,
+            "poisonous": false,
+            "deadly": false,
+            "id":4  
+        }
+        
+    ]
+}

@@ -1,0 +1,16 @@
+#root {
+  margin: 0;
+  padding:0;
+}
+main {
+  justify-content: center;
+}
+
+header {
+width: 100vw;
+}
+
+header img {
+  height: 3rem;
+  width: 3rem;
+}

@@ -18,8 +18,10 @@ export const Animals = () => {
     getAnimals();
   }, []);
 
+  /* const deleteminicard = (id del animal) y se ejecuta cuando clik en el boton de delete */
+
   return (
-    <div>
+    <div className="animalsLayout">
       <h2>All the beautiful animals</h2>
       <>
         {animals.map((animal) => (
@@ -28,6 +30,7 @@ export const Animals = () => {
               <h1>{animal.name}</h1>
             </Link>
             <img src={animal.image_link} alt={animal.name} />
+            {/* <button on></button> */}
           </div>
         ))}
       </>
